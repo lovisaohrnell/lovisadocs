@@ -1,0 +1,3 @@
+Schibsted Grotesk (Bakken & Bæck för Schibsted) är licensierad under SIL Open Font License 1.1.
+https://openfontlicense.org
+Källa: Google Fonts, latin-delmängd (täcker å, ä, ö).

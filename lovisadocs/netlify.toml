@@ -1,0 +1,29 @@
+[build]
+  publish = "."
+  command = "node bygg.mjs"
+
+# Spårsidorna ska aldrig synas på Google – de skickas bara som länk till rekryterare.
+[[headers]]
+  for = "/pr/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+[[headers]]
+  for = "/copywriting/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+[[headers]]
+  for = "/en/pr/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+[[headers]]
+  for = "/en/copywriting/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+[[headers]]
+  for = "/en/content/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
