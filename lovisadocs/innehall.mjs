@@ -8,7 +8,7 @@
 export default {
   // Sätt till false när sidan ska synas på Google (startsidan).
   // Spårsidorna (/pr, /copywriting, /content) är alltid dolda för Google.
-  forhandsvisning: true,
+  forhandsvisning: false,
   doman: "https://lovisadocs.se",
 
   namn: { fornamn: "Lovisa", efternamn: "Rydeberg Öhrnell" },
